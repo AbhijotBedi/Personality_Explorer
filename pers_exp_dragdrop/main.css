@@ -1,0 +1,36 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 40px;
+    background-color: #ffce00;
+}
+
+.heading {
+    text-align:  center;
+    padding-bottom: 15px;
+}
+  
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 10px;
+}
+  
+.box {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    height: 90vh;
+}
+  
+.item {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 4px;
+}
